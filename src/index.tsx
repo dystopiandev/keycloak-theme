@@ -24,8 +24,6 @@ if (kcContext !== undefined) {
 }
 
 render(
-  kcContext === undefined ?
-    <App /> :
     <KcApp />,
   document.getElementById("root")
 );
